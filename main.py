@@ -5,5 +5,5 @@ from dotenv import load_dotenv
 load_dotenv()
 
 if __name__ == "__main__":
-    query = " ".join(sys.argv[1:])
+    query = input("enter what research paper you want to search: ")
     run_agent(query)
