@@ -1,5 +1,19 @@
 # Kairos Intern Take‑Home: **Scientific‑Paper Scout**
 
+## Commands to run the program
+
+# 1. run the backend first
+'''bash
+python backend_demo.py
+'''
+
+# 2.run the interface in a new terminal
+'''bash
+cd interface
+npm install
+npm run start:all
+'''
+
 ## 0 — Goal
 
 Build an AI "Scientific‑Paper Scout" agent that helps a user discover and summarise recent research papers on any topic. The user interacts with the agent through a **command‑line chat** (`python main.py`). A tiny React front‑end is an **optional stretch goal**.
