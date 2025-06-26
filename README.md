@@ -2,17 +2,17 @@
 
 ## Commands to run the program
 
-1. run the backend first
-'''bash
+### 1. run the backend first
+```bash
 python backend_demo.py
-'''
+```
 
-2.run the interface in a new terminal
-'''bash
+### 2.run the interface in a new terminal
+```bash
 cd interface
 npm install
 npm run start:all
-'''
+```
 
 ## 0 — Goal
 
